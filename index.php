@@ -10,6 +10,11 @@ Flight::route("GET /test",function(){
     echo "Hello from test route";
 });
 
+Flight::route("GET /new",function(){
+    echo "Hello from new route";
+});
+
+
 
 Flight::start();
 ?>
